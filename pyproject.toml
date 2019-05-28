@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "trading"
+version = "0.1.0"
+description = "Machine Learning example using LSTMs being trained on public crypto data"
+authors = ["Conrad Ludgate <oon@conradludgate.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tensorflow = "^1.13"
+requests = "^2.22"
+python-dotenv = "^0.10.2"
+numpy = "^1.16"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
